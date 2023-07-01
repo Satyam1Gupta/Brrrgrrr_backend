@@ -1,7 +1,7 @@
 
 import grid from 'gridfs-stream'
 import mongoose from 'mongoose'
-const url='http://localhost:8000'//URL of the server(incase of local host it is:"http://localhost:8000")
+const url='https://brgrr.onrender.com'//URL of the server(incase of local host it is:"http://localhost:8000")
 
 let gfs,gridfsBucket;
 const conn=mongoose.connection
