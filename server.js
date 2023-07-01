@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(express.static( "./client/build"));
 app.get("/",(req,res)=>{
-     res.sendFile("./client/build/index.html")
+     res.send('Brrrgrrr server is running')
 })
 
 app.use('/',Router);
